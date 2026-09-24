@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Kapelse Medici</title>
+
+<style>
+body {
+    margin:0;
+    font-family: 'Segoe UI', sans-serif;
+    background:#f4f7f9;
+    color:#333;
+}
+
+/* NAVBAR */
+nav {
+    background:white;
+    padding:10px 40px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    box-shadow:0 2px 10px rgba(0,0,0,0.05);
+}
+
+.logo {
+    height:60px;
+}
+
+/* HERO */
+.hero {
+    background:linear-gradient(rgba(42,127,143,0.85), rgba(42,127,143,0.85)),
+    url('logo.jpg');
+    background-size:cover;
+    background-position:center;
+    color:white;
+    text-align:center;
+    padding:100px 20px;
+}
+
+.hero h1 {
+    font-size:38px;
+    margin-bottom:10px;
+}
+
+.hero p {
+    font-size:18px;
+    margin-bottom:25px;
+}
+
+/* BUTTONS */
+.button {
+    background:white;
+    color:#2a7f8f;
+    padding:15px 25px;
+    margin:10px;
+    border-radius:8px;
+    text-decoration:none;
+    font-weight:bold;
+    display:inline-block;
+}
+
+.button:hover {
+    background:#e6f2f5;
+}
+
+/* CONTENT */
+.container {
+    max-width:1100px;
+    margin:auto;
+    padding:40px 20px;
+}
+
+.card {
+    background:white;
+    padding:30px;
+    margin-bottom:25px;
+    border-radius:12px;
+    box-shadow:0 5px 20px rgba(0,0,0,0.05);
+}
+
+h2, h3 {
+    color:#2a7f8f;
+}
+
+/* MAP */
+iframe {
+    width:100%;
+    border:0;
+    border-radius:10px;
+    height:300px;
+}
+
+/* FOOTER */
+footer {
+    background:#2a7f8f;
+    color:white;
+    text-align:center;
+    padding:20px;
+    font-size:14px;
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+    <img src="logo.jpg" class="logo" alt="Kapelse Medici logo">
+</nav>
+
+<section class="hero">
+    <h1>Kapelse Medici</h1>
+    <p>Zorg met aandacht, dichtbij u</p>
+
+    <a class="button" href="https://www.healthappointment.com/Patient_Type.aspx?id=57045" target="_blank">
+        Afspraak Dr. Simon Robben
+    </a>
+
+    <a class="button" href="https://www.healthappointment.com/Patient_Type.aspx?id=208" target="_blank">
+        Afspraak Dr. Hendrik Roobaert
+    </a>
+</section>
+
+<div class="container">
+
+    <div class="card">
+        <h2>Over de praktijk</h2>
+        <p>
+        Wij zijn een team van 2 huisartsen die optimale zorg en continuïteit bieden voor onze patiënten.
+        Wij staan voor zorg met aandacht, dichtbij u.
+        </p>
+    </div>
+
+    <div class="card">
+        <h3>Belangrijke info</h3>
+        <p>
+        Als je meerdere belangrijke topics wil bespreken die niet binnen de normale consultatieduur van 15 minuten passen,
+        gelieve een extra afspraak in te plannen.
+        </p>
+    </div>
+
+    <div class="card">
+        <h3>Praktische afspraken</h3>
+        <p>
+        Gelieve tijdig op uw afspraak aanwezig te zijn.<br><br>
+        Kan u niet komen? Annuleer tijdig zodat andere patiënten geholpen kunnen worden.<br><br>
+        Huisbezoeken dienen bij voorkeur vóór 10u aangevraagd te worden.
+        </p>
+    </div>
+
+    <div class="card">
+        <h3>Contact</h3>
+        <p><strong>Adres:</strong> Brusselsestraat 569, 1700 Dilbeek (Sint-Ulriks-Kapelle)</p>
+        <p><strong>Telefoon:</strong> 02 453 94 53</p>
+        <p><strong>Email:</strong> kapelsemedici@gmail.com (niet voor medisch advies)</p>
+        <p><strong>Openingsuren:</strong> 8u - 19u</p>
+    </div>
+
+    <div class="card">
+        <h3>Locatie</h3>
+        <iframe src="https://maps.google.com/maps?q=Brusselsestraat%20569%20Dilbeek&output=embed"></iframe>
+    </div>
+
+    <div class="card">
+        <h3>Wachtdienst</h3>
+
+        <p><strong>Tijdens de week</strong></p>
+        <p>
+        Tijdens de weekdagen is er een wachtdienst 's nachts.<br>
+        📞 <strong>1733</strong><br>
+        (18u - 8u)
+        </p>
+
+        <p><strong>Tijdens het weekend en feestdagen</strong></p>
+        <p>
+        Wachtdienst PAGENI (regio Pajottenland)<br><br>
+        📞 <strong>1733</strong><br>
+        (vrijdag 19u tot maandag 8u en feestdagen)
+        </p>
+
+        <p><strong>Adres wachtdienstpost</strong><br>
+        Assesteenweg 191A bus 2<br>
+        1750 Lennik (Eizeringen)
+        </p>
+
+        <p>
+        Enkel voor dringende medische problemen die niet kunnen wachten.
+        </p>
+
+        <p>
+        In levensbedreigende situaties: bel <strong>112</strong>.
+        </p>
+    </div>
+
+    <div class="card">
+        <h3>Privacyverklaring (GDPR)</h3>
+
+        <p>Kapelse Medici respecteert uw privacy en verwerkt persoonsgegevens volgens de geldende wetgeving.</p>
+
+        <p><strong>Verantwoordelijke:</strong><br>
+        Kapelse Medici – Dr. Simon Robben & Dr. Hendrik Roobaert</p>
+
+        <p><strong>Doel van verwerking:</strong><br>
+        medische zorg, administratie en wettelijke verplichtingen</p>
+
+        <p><strong>Uw rechten:</strong><br>
+        U heeft recht op inzage en correctie van uw gegevens via kapelsemedici@gmail.com</p>
+
+        <p><strong>Vertrouwelijkheid:</strong><br>
+        Uw gegevens worden strikt vertrouwelijk behandeld.</p>
+    </div>
+
+</div>
+
+<footer>
+    © 2026 Kapelse Medici
+</footer>
+
+</body>
+</html>
